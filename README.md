@@ -1,7 +1,7 @@
 # cocos2d-x_v3.17.1_UWP_Templates
 Fixed project files so UWP templates are added and built 
 
-Warning: WinRT hasn't been officially supported since 3.15.1 so some newer functions added since will not for UWP apps, ex: glview->setCursor("custom-cursor.png").  You need to figure a way to do that for WinRT using custom win32 cursors. See my post here: https://discuss.cocos2d-x.org/t/hidden-mouse-inputs-and-custom-cursors/45879
+Warning: WinRT hasn't been officially supported since 3.15.1 so some newer functions added since will not work for UWP apps, ex: glview->setCursor("custom-cursor.png").  You need to figure a way to do that for WinRT using custom win32 cursors. See my post here: https://discuss.cocos2d-x.org/t/hidden-mouse-inputs-and-custom-cursors/45879
 
 Also the tests project currently does not compile properly.
 
